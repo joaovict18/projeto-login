@@ -64,8 +64,9 @@ main > section > form > input#btn1 {
     width: 19.5em;
 }
 
-main > section > form > input#btn1::placeholder {
+::-webkit-input-placeholder {
     background-color: #94CFCD;
+    border-radius: 10px;
 }
 
 main > section > form > input#btn1:hover {
