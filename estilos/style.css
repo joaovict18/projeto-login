@@ -6,12 +6,90 @@
     padding: 0px;
 }
 
+html { background-color: #5F2C82; }
+
+body { position: relative; }
+
 main {
-    width: 70vw;
-    height: 30vw;
+    width: 20vw;
+    height: 40vw;
     margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, 15%);
 }
 
-section {
-    display: inline-block;
+main > section { display: inline-block }
+
+main > section > div#img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(../imagens/metal.jpg);
+    background-position: center left; /* mudar depois */
+}
+
+main > section > h1 { text-align: center; }
+
+main > section > p {
+    font-size: small;
+    padding: 5px; 
+}
+
+main > section > form > div.container {
+    background-color: #5F2C82;
+    border-radius: 10px;
+    margin: 5px
+}
+
+main > section > form > input.campo {
+    border-radius: 20px;
+    background: #94CFCD;
+}
+
+main > section > form > div.container > span.material-icons { color: white; }
+
+main > section > form > input#btn1 {
+    color: white;
+    background-color: #53aaa7; /* mudar depois */
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 19.5em;
+}
+
+main > section > form > input#btn1::placeholder {
+    background-color: #94CFCD;
+}
+
+main > section > form > input#btn1:hover {
+    background-color: #1b4746; /* mudar depois */
+    cursor: pointer
+}
+
+main > section > form > a#btn2 {
+    color: #53aaa7; /* mudar depois */
+    background-color: white;
+    border: 0.5px solid #53aaa7;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: small;
+}
+
+main > section > form > a#btn2:hover {
+    background-color: #85e2df; /* mudar depois */
+    cursor: pointer
+}
+
+main > section > form > a > span#icone-email {
+    width: 2px;
 }
