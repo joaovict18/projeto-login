@@ -7,24 +7,27 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="img"></div>
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-            <form action="" method="post">
-                <div class="container">
-                    <span class="material-icons">person</span>
-                    <input type="email" name="email" id="iemail" class="campo" placeholder="seu e-mail" required>
-                </div>
-                <div class="container">
-                    <span class="material-icons">vpn_key</span>
-                    <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" class="campo" placeholder="sua senha" required>
-                </div>
-                <input id="btn1" type="submit" value="Entrar">
-                <a href="#" id="btn2">Esqueci a senha <span id="icone-email" class="material-icons">mail</span></a>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="" method="post">
+                    <div class="container">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" class="campo" placeholder="seu e-mail" required>
+                    </div>
+                    <div class="container">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" class="campo" placeholder="sua senha" required>
+                    </div>
+                    <input id="btn1" type="submit" value="Entrar">
+                    <a href="#" id="btn2">Esqueci a senha <span id="icone-email" class="material-icons">mail</span></a>
+            </div>
             </form>
         </section>
     </main>
