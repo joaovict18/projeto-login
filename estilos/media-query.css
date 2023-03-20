@@ -7,6 +7,7 @@
 
     section#login {
         width: 90vw;
+        height: 280px;
     }
 
     section#login > div#login {
@@ -18,10 +19,6 @@
         float: left;
         width: 30%;
         height: 100%;
-    }
-
-    input#btn2 {
-        transform: translateY(400%);
     }
 }
 
@@ -36,7 +33,6 @@
     }
 
     section#login > div#formulario {
-        display: block;
         float: left;
         width: 50%;
     }
