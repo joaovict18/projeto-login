@@ -16,14 +16,16 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="" method="post">
+                <form action="" method="post" autocomplete="on">
                     <div class="container">
                         <span class="material-icons">person</span>
-                        <input type="email" name="email" id="iemail" class="campo" placeholder="seu e-mail" required>
+                        <input type="email" name="email" id="iemail" class="campo" placeholder="seu e-mail" autocomplete="email" required>
+                        <label for="iemail"></label>
                     </div>
                     <div class="container">
                         <span class="material-icons">vpn_key</span>
-                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" class="campo" placeholder="sua senha" required>
+                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" class="campo" placeholder="sua senha" autocomplete="current-password" required>
+                        <label for="isenha"></label>
                     </div>
                     <input id="btn1" type="submit" value="Entrar">
                     <a href="#" id="btn2">Esqueci a senha <span id="icone-email" class="material-icons">mail</span></a>
