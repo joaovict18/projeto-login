@@ -10,10 +10,8 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="login">
             <div id="img"></div>
-        </section>
-        <section>
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="" method="post">
@@ -23,7 +21,7 @@
                 </div>
                 <div class="container">
                     <span class="material-icons">vpn_key</span>
-                    <input type="password" name="senha" id="isenha" class="campo" placeholder="sua senha" required>
+                    <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" class="campo" placeholder="sua senha" required>
                 </div>
                 <input id="btn1" type="submit" value="Entrar">
                 <a href="#" id="btn2">Esqueci a senha <span id="icone-email" class="material-icons">mail</span></a>
