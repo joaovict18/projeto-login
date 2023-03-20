@@ -24,8 +24,9 @@ main {
 section#login { 
     background-color: white;
     border-radius: 20px;
-    width: 250px;
-    height: 500px;
+    width: 300px;
+    height: 600px;
+    padding: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,51 +66,53 @@ div.container {
     margin: 5px
 }
 
-input.campo {
-    border-radius: 20px;
-    background: #94CFCD;
+span.material-icons { 
+    color: white; 
+    width: 40px;
+    padding: 10px;
+    display: inline-block;
 }
 
-span.material-icons { color: white; }
+input.campo {
+    border-radius: 8px;
+    background: #94CFCD;
+    border: none;
+    font-size: 1em;
+    height: 100%;
+    transition: (10%, 10%);
+}
+
 
 input#btn1 {
     color: white;
-    background-color: #53aaa7; /* mudar depois */
+    background-color: #53aaa7;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px;
-    padding: 10px;
-    margin-bottom: 15px;
-    width: 19.5em;
-}
-
-::-webkit-input-placeholder {
-    background-color: #94CFCD;
-    border-radius: 10px;
+    margin-bottom: 0px;
+    width: 16.5em;
+    height: 40px;
 }
 
 input#btn1:hover {
-    background-color: #1b4746; /* mudar depois */
+    background-color: #1b4746;
     cursor: pointer
 }
 
 a#btn2 {
-    color: #53aaa7; /* mudar depois */
+    color: #53aaa7;
     background-color: white;
     border: 0.5px solid #53aaa7;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px;
-    padding: 10px;
     margin-bottom: 15px;
     text-decoration: none;
     font-size: small;
+    padding-left: 4.5em;
+    padding-bottom: 1.2em;
 }
 
 a#btn2:hover {
-    background-color: #85e2df; /* mudar depois */
+    background-color: #85e2df;
     cursor: pointer
-}
-
-span#icone-email {
-    width: 2px;
 }
